@@ -1,0 +1,13 @@
+# Используем табы для отступов (Не указываем размер)
+[*.js]
+indent_style = tab
+charset = utf8
+[*.{css,pcss,less,sass,scss,styl}]
+indent_style = tab
+charset = utf8
+
+
+[*.min.*]
+indent_style = ignore
+trim_trailing_whitespace = false
+insert_final_newline = ignore
